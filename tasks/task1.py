@@ -2,12 +2,8 @@
 
 def solve():
 # Ниже пишите решение задачи
-    var S, x, y: longint;
-    begin
-    readln(S);
-    x:=S div 6;
-    y:=4*x;
-    writeln(x,' ', y,' ', x);
+    s=int(input())
+    print(s//6, (s//6+s//6)*2, s//6, sep=' ')
    
 
     
