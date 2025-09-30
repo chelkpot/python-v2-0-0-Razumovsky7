@@ -2,7 +2,11 @@
 
 def solve():
 # Ниже пишите решение задачи
-
+    X, Y, Z = map(int, data.split())
+    K = 3  
+    R = K + 2  
+    F = R + 7  
+    total_cost = (X * K) + (Y * R) + (Z * F)
    
 
    
