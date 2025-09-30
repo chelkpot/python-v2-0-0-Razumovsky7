@@ -2,7 +2,7 @@
 
 def solve():
 # Ниже пишите решение задачи
-    X, Y, Z = map(int, data.split())
+    X, Y, Z = map(int, input().split())
     K = 3  
     R = K + 2  
     F = R + 7  
